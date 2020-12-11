@@ -1,24 +1,45 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+* {
+  font-family: Arial, sans-serif;
 
 }
 
-.grid-title {
-  grid-column: 1 / 5;
-  border: 1px solid pink;
+p {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
 
 }
 
-.grid-schedule {
-  grid-column: 1 / 5;
+h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+body {
+  background: #ffffff;
+}
+
+header {
+  background-color: #03A3DF;
 
 }
 
-.grid-address {
+nav ul {
+  list-style-type: none;
 
 }
 
-.grid-contact {
+footer {
+  background-color: pink;
+  background-image: url("../images/footerimage.jpg");
 
 }
