@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.grid-title {
+  grid-column: 1 / 5;
+  border: 1px solid pink;
+
+}
+
+.grid-schedule {
+  grid-column: 1 / 5;
+
+}
+
+.grid-address {
+
+}
+
+.grid-contact {
+
+}
