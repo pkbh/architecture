@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid pink;
+
+}
+
+body {
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -1em;
+
+}
+
+header {
+  grid-column: 1 / 4;
+  border: 1px dotted green;
+  /*margin: -1em -1em 0 -1em;*/
+
+}
+
+nav {
+  background-color: pink;
+  display: grid;
+  grid-column: 1 / 4;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+main {
+  grid-column: 1 / 4;
+  border: 1px dotted red;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+footer {
+  grid-column: 1 / 4;
+  border: 1px dotted blue;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
