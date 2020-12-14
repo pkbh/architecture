@@ -21,7 +21,57 @@ footer {
 }
 
 .flex-container {
-  display: flex;
-  flex-flow: column wrap;
+  grid-column: 1 / 4;
 
+}
+
+.styled-page-break {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0 6em 0 6em;
+
+}
+
+.header-top-section {
+  display: flex;
+  padding: 4em 4em 2em 4em;
+
+}
+
+.header-top-section p {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header-nav {
+  display: flex;
+  background-color: #1b447f;
+  padding: 0;
+
+}
+
+#page-text {
+  font-weight: lighter;
+  text-align: justify;
+  padding: 3em 5em 2em 5em;
+
+}
+
+#footer-nav {
+  display: flex;
+  padding: 1em 0em 1em 3em;
+
+}
+
+#header-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#header-nav ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1em 2em 1em 2em;
 }

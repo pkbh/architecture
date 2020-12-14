@@ -4,6 +4,11 @@
 
 }
 
+a {
+  text-decoration: none;
+
+}
+
 p {
   font-size: 17px;
   font-weight: normal;
@@ -49,25 +54,23 @@ footer {
 
 }
 
-nav ul {
-  list-style-type: none;
+.facilities {
+  color: #03A3DF;
 
 }
 
-nav a {
+.header-top-section {
   color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 17px;
-  font-weight: bold;
 
 }
 
-.styled-page-break {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  padding: 0 6em 0 6em;
+.flex-container ul {
+  list-style: none;
+}
+
+.flex-container a {
+  color: #ffffff;
+  text-transform: uppercase;
 
 }
 
@@ -82,33 +85,27 @@ nav a {
 
 }
 
-#header-nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  background-color: #1b447f;
-  border: 1px solid white;
-  padding: 0 1.25em 0 1.25em;
-
-}
-
 #page-intro {
   text-align: center;
   padding: 2.5em 6em 2em 6em;
 
 }
 
-#page-text {
-  font-weight: lighter;
-  text-align: justify;
-  padding: 3.5em 5em 2em 5em;
+#schedule {
+  padding: 0em 5em 0 5em;
+  display: grid;
 
 }
 
-#schedule {
-  padding: 2.5em 5em 2em 5em;
-  display: grid;
+#nd-policy {
+  padding: 0 5em 5em 5em;
 
+}
+
+#page-text hr {
+  border: none;
+  border-bottom: 3px solid #03A3DF;
+  padding-top: 2.5em;
 }
 
 #schedule h2 {
@@ -131,7 +128,12 @@ nav a {
 
 }
 
-#nd-policy {
-  padding: 1em 5em 5em 5em;
+#nd-policy hr {
+  border: none;
+  border-bottom: 3px solid #03A3DF;
+  padding-top: 2.5em;
+}
 
+#nd-policy h3 {
+  padding-top: 2em;
 }
