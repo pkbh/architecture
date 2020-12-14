@@ -8,7 +8,6 @@ body {
 
 header {
   grid-column: 1 / 4;
-  border: 1px solid red;
 
 }
 
@@ -39,9 +38,18 @@ footer {
 
 }
 
+.video {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1em 5em 5em 5em;
+
+}
+
 .header-top-section p {
   display: flex;
   justify-content: flex-end;
+
 }
 
 #header-nav {
@@ -54,7 +62,7 @@ footer {
 #page-text {
   font-weight: lighter;
   text-align: justify;
-  padding: 3em 5em 2em 5em;
+  padding: 3em 5em 1em 5em;
 
 }
 
