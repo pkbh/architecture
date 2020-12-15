@@ -21,6 +21,15 @@ footer {
 
 .flex-container {
   grid-column: 1 / 4;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-container {
+  display: grid;
+  grid-column: 1 / 4;
+  padding: 0 6em 0 6em;
 
 }
 
@@ -29,12 +38,6 @@ footer {
   flex-flow: row wrap;
   align-items: center;
   padding: 0 6em 0 6em;
-
-}
-
-.header-top-section {
-  display: flex;
-  padding: 4em 4em 2em 4em;
 
 }
 
@@ -52,10 +55,61 @@ footer {
 
 }
 
+#header-top {
+  display: flex;
+  flex-direction: row;
+  padding: 4em 4em 2em 4em;
+
+}
+
+#header-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 4em 4em 2em 4em;
+
+}
+
 #header-nav {
   display: flex;
+  flex-direction: row;
+  width: 100%;
   background-color: #1b447f;
   padding: 0;
+
+}
+
+#footer-top {
+  display: grid;
+  grid-column: 1 / 2;
+  padding-left: 0;
+
+}
+
+#footer-bottom {
+  display: grid;
+  grid-column: 2 / 4;
+  padding-top: 4em;
+
+}
+
+#footer-nav {
+  display: grid;
+  grid-column: 1 / 4;
+
+}
+
+#footer-nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+}
+
+#copyright {
+  display: grid;
+  grid-column: 1 / 4;
+  padding-bottom: 2em;
 
 }
 
@@ -63,12 +117,6 @@ footer {
   font-weight: lighter;
   text-align: justify;
   padding: 3em 5em 1em 5em;
-
-}
-
-#footer-nav {
-  display: flex;
-  padding: 1em 0em 1em 3em;
 
 }
 
@@ -82,4 +130,12 @@ footer {
   align-items: flex-start;
   justify-content: space-between;
   padding: 1em 2em 1em 2em;
+}
+
+#footer-nav ul li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1em 2em 1em 0;
+
 }

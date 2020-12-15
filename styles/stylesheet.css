@@ -59,11 +59,6 @@ footer {
 
 }
 
-.header-top-section {
-  color: #ffffff;
-
-}
-
 .quote {
   color: #03a3df;
   font-size: 30px;
@@ -99,6 +94,14 @@ footer {
 
 }
 
+#header-bottom {
+  line-height: 0em;
+  color: #ffffff;
+  text-align: right;
+  font-size: smaller;
+
+}
+
 #page-intro {
   text-align: center;
   padding: 2.5em 6em 2em 6em;
@@ -113,6 +116,23 @@ footer {
 
 #nd-policy {
   padding: 0 5em 5em 5em;
+
+}
+
+#footer-top {
+  align-items: center;
+
+}
+
+#footer-bottom {
+  color: #ffffff;
+  line-height: 0em;
+  text-align: right;
+
+}
+
+#copyright {
+  color: #ffffff;
 
 }
 
@@ -156,4 +176,10 @@ footer {
 
 #nd-policy h3 {
   padding-top: 2em;
+}
+
+#footer-nav ul a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
 }
