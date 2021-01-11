@@ -55,6 +55,11 @@ footer {
 
 }
 
+#skip {
+  margin: -1em -15em 0 -15em;
+  z-index: 0;
+}
+
 #header-top {
   display: flex;
   flex-direction: row;
@@ -76,6 +81,7 @@ footer {
   flex-direction: row;
   width: 100%;
   background-color: #1b447f;
+  margin-bottom: -1em;
   padding: 0;
 
 }
